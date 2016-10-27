@@ -5,4 +5,9 @@
     "node": true,
     "mocha": true
   },
+  "plugins": [
+    "react",
+    "import"
+  ],
+  "parser": "babel-eslint",
 }

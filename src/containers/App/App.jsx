@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-import { Hello } from '../../components/Hello/Hello';
 
 export default class App extends Component {
-  componentDidMount() {
-    console.log('App');
-  }
+  componentDidMount() {}
 
   render() {
     return (
       <div>
-        <Hello />
+        Hello 2
       </div>
     );
   }
