@@ -3,6 +3,9 @@
   "plugins": [
     "react-hot-loader/babel",
     "transform-runtime",
-    "transform-export-extensions"
+    "transform-export-extensions",
+    ["module-resolver", {
+      "root": ["./src"]
+    }]
   ]
 }
