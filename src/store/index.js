@@ -1,1 +1,1 @@
-export configureStore from './configureStore.dev';
+export configureStore from './configureStore';
