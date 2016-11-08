@@ -1,10 +1,10 @@
 import React, { PropTypes } from 'react';
 import { Provider } from 'react-redux';
-import { Hello } from 'components';
+import { Home } from 'containers';
 
 const Root = ({ store }) => (
   <Provider store={store}>
-    <Hello />
+    <Home />
   </Provider>
 );
 

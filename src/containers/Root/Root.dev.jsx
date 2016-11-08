@@ -1,12 +1,11 @@
 import React, { PropTypes } from 'react';
 import { Provider } from 'react-redux';
-import { DevTools } from 'containers';
-import { Hello } from 'components';
+import { DevTools, Home } from 'containers';
 
 const Root = ({ store }) => (
   <Provider store={store}>
     <div>
-      <Hello />
+      <Home />
       <DevTools />
     </div>
   </Provider>

@@ -1,7 +1,11 @@
 import React from 'react';
+import { Counter } from 'components';
 
 const Hello = () => (
-  <h1>Hello</h1>
+  <div>
+    <h1>Hello!</h1>
+    <Counter />
+  </div>
 );
 
 export default Hello;

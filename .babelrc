@@ -4,6 +4,7 @@
     "react-hot-loader/babel",
     "transform-runtime",
     "transform-export-extensions",
+    "transform-decorators-legacy",
     ["module-resolver", {
       "root": ["./src"]
     }]
